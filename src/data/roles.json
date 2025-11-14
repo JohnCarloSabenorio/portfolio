@@ -1,0 +1,102 @@
+[
+  {
+    "task": "Version Control",
+    "phrase": "Managing code efficiently with Git.",
+    "icon": "ForkRight"
+  },
+  {
+    "task": "API Integration",
+    "phrase": "Connecting applications through seamless API workflows.",
+    "icon": "IntegrationInstructions"
+  },
+  {
+    "task": "Frontend",
+    "phrase": "Building responsive and modern user interfaces.",
+    "icon": "DesktopWindows"
+  },
+  {
+    "task": "Backend",
+    "phrase": "Developing secure and scalable server logic.",
+    "icon": "Dns"
+  },
+  {
+    "task": "Database",
+    "phrase": "Organizing and optimizing structured data storage.",
+    "icon": "Storage"
+  },
+  {
+    "task": "Auth",
+    "phrase": "Ensuring secure user access and data protection.",
+    "icon": "Lock"
+  },
+  {
+    "task": "API Design",
+    "phrase": "Designing structured and reliable data endpoints.",
+    "icon": "Api"
+  },
+  {
+    "task": "Deployment",
+    "phrase": "Deploying applications to scalable cloud platforms.",
+    "icon": "CloudUpload"
+  },
+  {
+    "task": "UI/UX",
+    "phrase": "Turning designs into clean, user-friendly experiences.",
+    "icon": "Brush"
+  },
+  {
+    "task": "State",
+    "phrase": "Maintaining predictable app behavior with clean state control.",
+    "icon": "SettingsEthernet"
+  },
+  {
+    "task": "Debugging",
+    "phrase": "Identifying and resolving issues efficiently.",
+    "icon": "BugReport"
+  },
+  {
+    "task": "Performance",
+    "phrase": "Improving speed and overall app performance.",
+    "icon": "Speed"
+  },
+  {
+    "task": "Testing",
+    "phrase": "Ensuring reliability through quality tests.",
+    "icon": "CheckCircle"
+  },
+  {
+    "task": "Server",
+    "phrase": "Handling server operations and request flow.",
+    "icon": "Server"
+  },
+  {
+    "task": "Security",
+    "phrase": "Protecting data with modern security standards.",
+    "icon": "Security"
+  },
+  {
+    "task": "Error Handling",
+    "phrase": "Tracking and managing application errors.",
+    "icon": "ErrorOutline"
+  },
+  {
+    "task": "Docs",
+    "phrase": "Writing clear, helpful technical documentation.",
+    "icon": "Description"
+  },
+  {
+    "task": "CI/CD",
+    "phrase": "Automating builds and deployments.",
+    "icon": "BuildCircle"
+  },
+  {
+    "task": "Cross-Platform",
+    "phrase": "Delivering consistent experiences across devices.",
+    "icon": "Devices"
+  },
+  {
+    "task": "Collaboration",
+    "phrase": "Working with teams to build better code.",
+    "icon": "Groups"
+  }
+]
