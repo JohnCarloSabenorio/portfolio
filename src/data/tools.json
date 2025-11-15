@@ -1,0 +1,52 @@
+[
+  {
+    "title": "PowerShell",
+    "image": "images/icons/powershell-icon.png",
+    "alt": "PowerShell Icon"
+  },
+  {
+    "title": "Git",
+    "image": "images/icons/git-icon.png",
+    "alt": "Git Icon"
+  },
+  {
+    "title": "GitHub",
+    "image": "images/icons/github-icon.png",
+    "alt": "GitHub Icon"
+  },
+  {
+    "title": "Notion",
+    "image": "images/icons/notion-icon.png",
+    "alt": "Notion Icon"
+  },
+  {
+    "title": "Postman",
+    "image": "images/icons/postman-icon.png",
+    "alt": "Postman Icon"
+  },
+  {
+    "title": "Trello",
+    "image": "images/icons/trello-icon.png",
+    "alt": "Trello Icon"
+  },
+  {
+    "title": "Stripe",
+    "image": "images/icons/stripe-icon.png",
+    "alt": "Stripe Icon"
+  },
+  {
+    "title": "Swagger",
+    "image": "images/icons/swagger-icon.png",
+    "alt": "Swagger Icon"
+  },
+  {
+    "title": "Canva",
+    "image": "images/icons/canva-icon.png",
+    "alt": "Canva Icon"
+  },
+  {
+    "title": "Figma",
+    "image": "images/icons/figma-icon.png",
+    "alt": "Figma Icon"
+  }
+]

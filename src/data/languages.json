@@ -1,0 +1,47 @@
+[
+  {
+    "title": "C#",
+    "image": "images/icons/csharp-icon.png",
+    "alt": "C# Icon"
+  },
+  {
+    "title": "CSS",
+    "image": "images/icons/css-icon.png",
+    "alt": "CSS Icon"
+  },
+  {
+    "title": "HTML",
+    "image": "images/icons/html-icon.png",
+    "alt": "HTML5 Icon"
+  },
+  {
+    "title": "Java",
+    "image": "images/icons/java-icon.png",
+    "alt": "Java Icon"
+  },
+  {
+    "title": "JavaScript",
+    "image": "images/icons/js-icon.png",
+    "alt": "JavaScript Icon"
+  },
+  {
+    "title": "PHP",
+    "image": "images/icons/php-icon.png",
+    "alt": "PHP Icon"
+  },
+  {
+    "title": "Python",
+    "image": "images/icons/python-icon.png",
+    "alt": "Python Icon"
+  },
+  {
+    "title": "Ruby",
+    "image": "images/icons/ruby-icon.png",
+    "alt": "Ruby Icon"
+  },
+  {
+    "title": "TypeScript",
+    "image": "images/icons/ts-icon.png",
+    "alt": "TypeScript Icon"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Angular.js",
+    "image": "images/icons/angular-icon.png",
+    "alt": "Angular.js Icon"
+  },
+  {
+    "title": "Bootstrap",
+    "image": "images/icons/bootstrap-icon.png",
+    "alt": "Bootstrap Icon"
+  },
+  {
+    "title": "Node.js",
+    "image": "images/icons/node-icon.png",
+    "alt": "Node.js Icon"
+  },
+  {
+    "title": "React.js",
+    "image": "images/icons/react-icon.png",
+    "alt": "React Icon"
+  },
+  {
+    "title": "TailwindCSS",
+    "image": "images/icons/tailwind-icon.png",
+    "alt": "TailwindCSS Icon"
+  },
+  {
+    "title": "Express.js",
+    "image": "images/icons/expressjs-icon.png",
+    "alt": "Express.js Icon"
+  },
+  {
+    "title": "Flask",
+    "image": "images/icons/flask-icon.png",
+    "alt": "Flask Icon"
+  },
+  {
+    "title": "ASP.NET",
+    "image": "images/icons/aspnet-icon.png",
+    "alt": "ASP.net Icon"
+  },
+  {
+    "title": "Next.js",
+    "image": "images/icons/nextjs-icon.png",
+    "alt": "Next.js Icon"
+  }
+]

@@ -5,6 +5,7 @@ import IntroSection from "./components/Introduction/IntroSection";
 
 import RoleSection from "./components/Role/RoleSection";
 import ProjectsSection from "./components/Projects/ProjectsSection";
+import SkillsSection from "./components/Skills/SkillsSection";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <RoleSection />
 
         <ProjectsSection />
+
+        <SkillsSection />
       </main>
     </>
   );

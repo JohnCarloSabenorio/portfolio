@@ -1,0 +1,27 @@
+[
+  {
+    "title": "MongoDB",
+    "image": "images/icons/mongodb-icon.png",
+    "alt": "MongoDB Icon"
+  },
+  {
+    "title": "MySQL",
+    "image": "images/icons/mysql-icon.png",
+    "alt": "MySQL Icon"
+  },
+  {
+    "title": "Postgres",
+    "image": "images/icons/postgres-icon.png",
+    "alt": "Postgres Icon"
+  },
+  {
+    "title": "MS SQL",
+    "image": "images/icons/mssql-icon.png",
+    "alt": "MS SQL Icon"
+  },
+  {
+    "title": "Supabase",
+    "image": "images/icons/supabase-icon.png",
+    "alt": "Supabase Icon"
+  }
+]
