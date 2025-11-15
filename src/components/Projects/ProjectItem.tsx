@@ -14,7 +14,7 @@ export default function ProjectItem({ projectData }) {
         <p>Technologies Used:</p>
         <div className="flex justify-center md:justify-start flex-wrap gap-2">
           {projectData.technologies.map((techData, idx) => {
-            return <TechnologyItem data={techData} />;
+            return <TechnologyItem key={idx} data={techData} />;
           })}
         </div>
         {/* Buttons */}
