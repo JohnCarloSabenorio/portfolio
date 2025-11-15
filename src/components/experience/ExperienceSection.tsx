@@ -6,8 +6,11 @@ export default function ExperienceSection() {
   return (
     <section className="flex flex-col mt-20 w-full">
       <div className="">
-        <h1 className="text-3xl">Experience</h1>
-
+        <div className="flex items-center gap-2">
+          <h1 className="text-3xl">Experience</h1>
+          <div className="flex-1 h-[1px] bg-black"></div>
+        </div>
+        <p className="mt-3">My Journey!</p>
         {/* Container */}
         <div className="grid  grid-cols-1 md:grid-cols-2 gap-3">
           {/* Education */}

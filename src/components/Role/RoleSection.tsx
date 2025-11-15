@@ -19,7 +19,10 @@ export default function RoleSection() {
         className="w-full justify-center p-8 md:p-0 mt-5"
       >
         <div className="mt-20">
-          <h1 className="text-3xl">What I Do?</h1>
+          <div className="flex items-center gap-2">
+            <h1 className="text-3xl">What I Do?</h1>
+            <div className="flex-1 h-[1px] bg-black"></div>
+          </div>
           <p className="mt-3 ml-3">Check out what I do as a developer!</p>
         </div>
         <CarouselContent>

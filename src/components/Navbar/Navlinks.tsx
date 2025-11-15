@@ -13,9 +13,6 @@ export default function Navlinks({ handleClick }: { handleClick: () => void }) {
           Skills
         </a>
         <a className="nav-link " href="#">
-          Certificates
-        </a>
-        <a className="nav-link " href="#">
           Experience
         </a>
       </div>

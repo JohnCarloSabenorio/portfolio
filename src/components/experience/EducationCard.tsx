@@ -20,31 +20,25 @@ export default function EducationCard({
         {/* Contributions */}
         <div className="overflow-hidden">
           <hr className="mt-3 h-0.5 bg-black" />
-          <p className="text-xl text-center mt-3 mb-3">
+          <p className="text-xl mt-3 mb-3">
             Extracurricular Activities
           </p>
 
-          {educationData.extracurriculars.map((data, idx) => {
-            return (
-              <div key={idx}>
-                <p>{data}</p>
-                <hr className="m-3" />
-              </div>
-            );
-          })}
+          <ul className="list-disc list-inside">
+            {educationData.extracurriculars.map((data, idx) => (
+              <li key={idx}>{data}</li>
+            ))}
+          </ul>
 
-          <p className="text-xl text-center mt-3 mb-3">
+          <p className="text-xl mt-3 mb-3">
             Certifications and Training
           </p>
 
-          {educationData.training.map((data, idx) => {
-            return (
-              <div key={idx}>
-                <p>{data}</p>
-                <hr className="m-3" />
-              </div>
-            );
-          })}
+          <ul className="list-disc list-inside">
+            {educationData.training.map((data, idx) => (
+              <li key={idx}>{data}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

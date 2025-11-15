@@ -16,16 +16,13 @@ export default function WorkCard({ workData }: { workData: WorkExperience }) {
         {/* Contributions */}
         <div className="overflow-hidden">
           <hr className="mt-3 h-0.5 bg-black" />
-          <p className="text-xl text-center mt-3 mb-3">Contributions</p>
+          <p className="text-xl mt-3 mb-3">Contributions</p>
 
-          {workData.contributions.map((contrib, idx) => {
-            return (
-              <div key={idx}>
-                <p>{contrib}</p>
-                <hr className="m-3" />
-              </div>
-            );
-          })}
+          <ul className="list-disc list-inside">
+            {workData.contributions.map((data, idx) => (
+              <li key={idx}>{data}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

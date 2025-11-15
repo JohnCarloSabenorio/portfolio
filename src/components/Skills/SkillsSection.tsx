@@ -6,10 +6,11 @@ import SkillsContainer from "./SkillsContainer";
 export default function SkillsSection() {
   return (
     <section className="flex flex-col mt-20 w-full mb-5">
-      <div className="">
+      <div className="flex items-center gap-2">
         <h1 className="text-3xl">Skills</h1>
-        <p className="mt-3">Skills I've acquired!</p>
+        <div className="flex-1 h-[1px] bg-black"></div>
       </div>
+      <p className="mt-3">Skills I've developed!</p>
 
       {/* Languages */}
 
