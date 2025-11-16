@@ -1,8 +1,13 @@
 import resumeFile from "/files/Sabenorio_Resume.pdf";
 export default function DownloadButton() {
   return (
-    <a href={resumeFile} download={resumeFile} target="_blank">
-      <button className="hidden md:block bg-black text-white cursor-pointer p-2 px-3 rounded-full font-semibold">
+    <a
+      href={resumeFile}
+      className="hidden md:block"
+      download={resumeFile}
+      target="_blank"
+    >
+      <button className="bg-black text-white cursor-pointer p-2 px-3 rounded-full font-semibold">
         <div className="flex items-center justify-center gap-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"

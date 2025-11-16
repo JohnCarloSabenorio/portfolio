@@ -5,7 +5,7 @@ import tools from "@/data/tools.json";
 import SkillsContainer from "./SkillsContainer";
 export default function SkillsSection() {
   return (
-    <section className="flex flex-col mt-20 w-full mb-5">
+    <section id="skills-section" className="flex flex-col mt-20 w-full mb-5">
       <div className="flex items-center gap-2">
         <h1 className="text-3xl">Skills</h1>
         <div className="flex-1 h-[1px] bg-black"></div>

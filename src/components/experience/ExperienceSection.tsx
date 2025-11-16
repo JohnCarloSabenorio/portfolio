@@ -4,7 +4,7 @@ import EducationCard from "./EducationCard";
 import WorkCard from "./WorkCard";
 export default function ExperienceSection() {
   return (
-    <section className="flex flex-col mt-20 w-full">
+    <section id="experience-section" className="flex flex-col mt-20 w-full">
       <div className="">
         <div className="flex items-center gap-2">
           <h1 className="text-3xl">Experience</h1>

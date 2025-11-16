@@ -3,16 +3,16 @@ export default function Navlinks({ handleClick }: { handleClick: () => void }) {
   return (
     <div className="nav-flex gap-0">
       <div className="hidden md:block">
-        <a className="nav-link active" href="#">
+        <a className="nav-link active" href="#intro-section">
           Me
         </a>
-        <a className="nav-link " href="#">
+        <a className="nav-link " href="#projects-section">
           Projects
         </a>
-        <a className="nav-link " href="#">
+        <a className="nav-link " href="#skills-section">
           Skills
         </a>
-        <a className="nav-link " href="#">
+        <a className="nav-link " href="#experience-section">
           Experience
         </a>
       </div>

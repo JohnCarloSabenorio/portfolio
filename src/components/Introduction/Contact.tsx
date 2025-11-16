@@ -1,13 +1,16 @@
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import FacebookIcon from "@mui/icons-material/Facebook";
+import SocialMediaIcons from "../SocialMediaIcons/SocialMediaIcons";
 
 export default function Contact() {
   return (
     <div className="p-3 w-full md:w-auto flex flex-col gap-1">
-      <a className="italic cursor-pointer">
+      <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=johncarlosabenorio07@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="italic cursor-pointer"
+      >
         <span>
           <EmailIcon />
         </span>{" "}
@@ -20,11 +23,7 @@ export default function Contact() {
         +63-976-263-2748
       </a>
 
-      <div className="flex justify-center md:justify-start gap-1">
-        <GitHubIcon sx={{ fontSize: 30 }} />
-        <LinkedInIcon sx={{ fontSize: 30 }} />
-        <FacebookIcon sx={{ fontSize: 30 }} />
-      </div>
+      <SocialMediaIcons />
     </div>
   );
 }
