@@ -8,10 +8,18 @@ export default function Navdropdown({
     <div
       className={`text-center ${showDropdown ? "block" : "hidden"} md:hidden`}
     >
-      <div className="active p-1">Me</div>
-      <div className="p-1">Projects</div>
-      <div className="p-1">Skills</div>
-      <div className="p-1">Experience</div>
+      <a href="#intro-section">
+        <div className="active p-1">Me</div>
+      </a>
+      <a href="#projects-section">
+        <div className="p-1">Projects</div>
+      </a>
+      <a href="#skills-section">
+        <div className="p-1">Skills</div>
+      </a>
+      <a href="#experience-section">
+        <div className="p-1">Experience</div>
+      </a>
       <a href={resumeFile} download={resumeFile} target="_blank">
         <div className="flex items-center justify-center gap-1">
           <svg
