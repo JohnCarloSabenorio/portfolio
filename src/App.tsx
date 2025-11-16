@@ -8,7 +8,7 @@ import ProjectsSection from "./components/Projects/ProjectsSection";
 import SkillsSection from "./components/Skills/SkillsSection";
 import ExperienceSection from "./components/experience/ExperienceSection";
 import Footer from "./components/Footer/Footer";
-import ActionButton from "./components/ActionButton";
+// import ActionButton from "./components/ActionButton";
 
 function App() {
   return (
