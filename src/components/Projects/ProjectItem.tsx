@@ -3,7 +3,7 @@ import type { Project } from "@/interfaces/projectInterface";
 
 export default function ProjectItem({ projectData }: { projectData: Project }) {
   return (
-    <div className="flex flex-col md:flex-row items-center gap-1 border rounded-md p-3">
+    <div className="flex flex-col md:flex-row items-center gap-1 border rounded-md p-3 bg-white">
       <img
         className="w-15 mx-3 aspect-square rounded-full"
         src={projectData.iconLink}

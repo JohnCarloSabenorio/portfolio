@@ -6,7 +6,7 @@ export default function EducationCard({
   educationData: Education;
 }) {
   return (
-    <div className="cursor-pointer group border rounded-md">
+    <div className="cursor-pointer group border rounded-md bg-white">
       <div className="p-5 rounded-md">
         <div className="flex items-center justify-between">
           <p>{educationData.years}</p>

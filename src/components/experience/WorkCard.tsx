@@ -2,7 +2,7 @@ import type { WorkExperience } from "@/interfaces/experienceInterface";
 
 export default function WorkCard({ workData }: { workData: WorkExperience }) {
   return (
-    <div className="cursor-pointer group border rounded-md">
+    <div className="cursor-pointer group border rounded-md bg-white">
       <div className="p-5 rounded-md">
         <div className="flex items-center justify-between">
           <p>July 2024 - August 2024</p>
