@@ -10,7 +10,8 @@
       "@/*": ["./src/*"],
       "@/components*": ["./components/*"],
       "@/data*": ["./data/*"],
-      "@/interfaces*": ["./interfaces/*"]
+      "@/interfaces*": ["./interfaces/*"],
+      "@/contexts*": ["./contexts/*"]
     }
   }
 }

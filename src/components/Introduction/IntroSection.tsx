@@ -1,5 +1,6 @@
 import Greeting from "./Greeting";
 import "../../styles/IntroSection.css";
+
 export default function IntroSection() {
   return (
     <section
