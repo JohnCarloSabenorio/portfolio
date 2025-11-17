@@ -9,11 +9,12 @@ import SkillsSection from "./components/Skills/SkillsSection";
 import ExperienceSection from "./components/experience/ExperienceSection";
 import Footer from "./components/Footer/Footer";
 import { sectionContext } from "@/contexts/sectionContext.ts";
+import { ThemeContext } from "@/contexts/ThemeContext";
 // import ActionButton from "./components/ActionButton";
 
 function App() {
   const [activeSection, setActiveSection] = useState("intro-section");
-
+  const [isDarkMode, setIsDarkMode] = useState(false);
   useEffect(() => {
     const sections = document.querySelectorAll("section");
 
@@ -32,24 +33,32 @@ function App() {
   }, []);
   return (
     <>
-      <sectionContext.Provider value={{ activeSection, setActiveSection }}>
-        <Navbar />
-        <main className="flex flex-col justify-center items-center max-w-350 mx-auto">
-          {/* Intro Div */}
+      <ThemeContext.Provider value={{ isDarkMode, setIsDarkMode }}>
+        <sectionContext.Provider value={{ activeSection, setActiveSection }}>
+          <main
+            className={`${
+              isDarkMode ? "bg-gray-800" : "bg-amber-50"
+            } transition-colors duration-300`}
+          >
+            <Navbar />
+            <div className="flex flex-col justify-center items-center max-w-350 mx-auto">
+              {/* Intro Div */}
 
-          <IntroSection />
+              <IntroSection />
 
-          <RoleSection />
+              <RoleSection />
 
-          <ProjectsSection />
+              <ProjectsSection />
 
-          <SkillsSection />
+              <SkillsSection />
 
-          <ExperienceSection />
-        </main>
-        {/* <ActionButton /> */}
-        <Footer />
-      </sectionContext.Provider>
+              <ExperienceSection />
+            </div>
+            <Footer />
+          </main>
+          {/* <ActionButton /> */}
+        </sectionContext.Provider>
+      </ThemeContext.Provider>
     </>
   );
 }

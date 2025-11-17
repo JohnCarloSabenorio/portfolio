@@ -4,4 +4,6 @@ section {
   @apply text-black;
 }
 
-
+.dark {
+  @apply text-white fill-white;
+}

@@ -1,16 +1,38 @@
 import Navlogo from "./Navlogo";
 import Navlinks from "./Navlinks";
 import Navdropdown from "./Navdropdown";
-import { useState } from "react";
+import { useEffect, useState, useContext } from "react";
+import { ThemeContext } from "@/contexts/ThemeContext";
 import DownloadButton from "./DownloadButton";
 export default function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true);
+  const { isDarkMode } = useContext(ThemeContext);
 
   function handleDropdownClick() {
     setShowDropdown((prev) => !prev);
   }
+
+  function handleScroll() {
+    setIsAtTop(window.pageYOffset == 0);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="p-3 px-5 sticky bg-gray-500/60 backdrop-blur-md z-50 text-white top-0 w-full">
+    <div
+      className={`p-3 px-5 sticky ${
+        isAtTop
+          ? "bg-transparent"
+          : "bg-amber-200/60 transition-colors duration-300"
+      }  backdrop-blur-md z-50 top-0 w-full`}
+    >
       <div className="nav-flex justify-between">
         {/* Logo */}
         <Navlogo />
