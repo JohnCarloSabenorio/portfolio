@@ -1,7 +1,7 @@
 export default function Role() {
   return (
     <div className="flex flex-col gap-3">
-      <div className="flex justify-end">
+      <div className="flex justify-center md:justify-end">
         <p
           id="dev-role"
           className="big-text text-center md:text-right titan-one-bold"
