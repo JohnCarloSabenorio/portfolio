@@ -7,13 +7,13 @@ export default function Greeting() {
   useEffect(() => {
     gsap.fromTo(
       "#myName",
-      { x: -300, opacity: 0 }, // starting position
-      { x: 0, duration: 2, opacity: 1 } // end position
+      { x: -300 }, // starting position
+      { x: 0, duration: 1, ease: "bounce.out" } // end position
     );
     gsap.fromTo(
       "#dev-role",
-      { x: 300, opacity: 0 }, // starting position
-      { x: 0, duration: 2, opacity: 1 } // end position
+      { x: 300 }, // starting position
+      { x: 0, duration: 1, ease: "bounce.out" } // end position
     );
   }, []);
   return (

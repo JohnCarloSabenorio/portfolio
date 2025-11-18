@@ -30,7 +30,9 @@ export default function Navbar() {
       className={`p-3 px-5 sticky ${
         isAtTop
           ? "bg-transparent"
-          : "bg-amber-200/60 transition-colors duration-300"
+          : `${
+              isDarkMode ? "bg-gray-600/60" : "bg-gray-400/60"
+            } transition-colors duration-300`
       }  backdrop-blur-md z-50 top-0 w-full`}
     >
       <div className="nav-flex justify-between">

@@ -1,13 +1,17 @@
 import { sectionContext } from "@/contexts/sectionContext";
 import menuicon from "/svg/menuicon.svg";
 import { useContext } from "react";
-
+import { ThemeContext } from "@/contexts/ThemeContext";
 export default function Navlinks({ handleClick }: { handleClick: () => void }) {
   const { activeSection } = useContext(sectionContext);
-
+  const { isDarkMode } = useContext(ThemeContext);
   return (
     <div className="nav-flex gap-0">
-      <div className="hidden md:block">
+      <div
+        className={`${
+          isDarkMode ? "text-white" : "text-black"
+        } hidden md:block`}
+      >
         <a
           className={`nav-link ${activeSection == "intro-section" && "active"}`}
           href="#intro-section"
