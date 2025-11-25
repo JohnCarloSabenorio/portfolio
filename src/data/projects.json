@@ -95,8 +95,8 @@
     "repoLink": "https://github.com/JohnCarloSabenorio/JConnect"
   },
   {
-    "name": "GameVault (In Development)",
-    "description": "A full-stack web app that lets users catalog, rate, and discuss video games with other people who share similar interests.",
+    "name": "GameVault",
+    "description": "A web app that lets users catalog, rate, and discuss video games with other people who share similar interests.",
     "summary": "",
     "dateAccomplished": "2025-11-14T00:00:00.000Z",
     "imageLinks": [],
@@ -106,9 +106,7 @@
       { "name": "JavaScript", "image": "images/icons/js-icon.png" },
       { "name": "React.js", "image": "images/icons/react-icon.png" },
       { "name": "TailwindCSS", "image": "images/icons/tailwind-icon.png" },
-      { "name": "ASP.Net", "image": "images/icons/aspnet-icon.png" },
-      { "name": "MS SQL Server", "image": "images/icons/mssql-icon.png" },
-      { "name": "Swagger", "image": "images/icons/swagger-icon.png" }
+      { "name": "Next.js", "image": "images/icons/nextjs-icon.png" }
     ],
     "iconLink": "images/logos/gamevault-logo.png",
     "repoLink": "https://github.com/JohnCarloSabenorio/GameVault"
