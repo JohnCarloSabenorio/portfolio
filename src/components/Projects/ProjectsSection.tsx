@@ -2,7 +2,25 @@ import projects from "@/data/projects.json";
 import ProjectItem from "./ProjectItem";
 import SectionSeparator from "../SectionSeparator";
 import "@/styles/ProjectSection.css";
+import { gsap } from "gsap";
+import { useEffect } from "react";
+
 export default function ProjectsSection() {
+  useEffect(() => {
+    gsap.fromTo(
+      "#projects-section",
+      {
+        opacity: 0,
+      },
+      {
+        opacity: 1,
+        scrollTrigger: {
+          trigger: "#projects-section",
+          scrub: true,
+        },
+      }
+    );
+  }, []);
   return (
     <section id="projects-section" className="flex flex-col mt-20 w-full">
       <SectionSeparator
@@ -10,7 +28,7 @@ export default function ProjectsSection() {
         desc="Check out some of the projects I developed!"
       />
 
-      <div className="grid gap-3 grid-cols-1 md:grid-cols-2 gap-1 p-3">
+      <div className="grid gap-3 grid-cols-1 md:grid-cols-2 p-3">
         {projects.map((data, idx) => {
           return <ProjectItem key={idx} projectData={data} />;
         })}

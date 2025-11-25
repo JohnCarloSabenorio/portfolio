@@ -2,7 +2,10 @@ import Description from "./Description";
 import Contact from "./Contact";
 export default function Profile() {
   return (
-    <div className="flex flex-col justify-center md:flex-row items-center gap-3">
+    <div
+      id="profile"
+      className="flex flex-col justify-center md:flex-row items-center gap-3"
+    >
       <Contact />
 
       <img

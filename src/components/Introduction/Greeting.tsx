@@ -6,29 +6,42 @@ import { ThemeContext } from "@/contexts/ThemeContext";
 
 export default function Greeting() {
   const { isDarkMode } = useContext(ThemeContext);
+
   useEffect(() => {
-    gsap.fromTo(
-      "#myName",
-      { x: -300 }, // starting position
-      { x: 0, duration: 1, ease: "bounce.out" } // end position
+    const tl = gsap.timeline();
+
+    tl.fromTo(
+      "#name-intro",
+      { x: -300, opacity: 0 }, // starting position
+      { x: 0, opacity: 1, duration: 1, ease: "back" } // end position
     );
-    gsap.fromTo(
-      "#dev-role",
-      { x: 300 }, // starting position
-      { x: 0, duration: 1, ease: "bounce.out" } // end position
+    tl.fromTo(
+      "#dev-intro",
+      { x: 300, opacity: 0 }, // starting position
+      { x: 0, opacity: 1, duration: 1, ease: "back" } // end position
+    );
+    tl.fromTo(
+      "#profile",
+      { opacity: 0 }, // starting position
+      { opacity: 1, duration: 1, ease: "back" } // end position
     );
   }, []);
+
   return (
     <div className="text-center md:text-left">
-      <div>ᜇᜌ ᜐᜒ</div>
-      <div>Hi👋! My name is</div>
-      <div id="myName" className="big-text my-name font-bold mb-3">
-        <p>
-          <span className={`${isDarkMode ? "text-blue-500" : "text-blue-800"}`}>
-            John Carlo
-          </span>{" "}
-          Sabenorio
-        </p>
+      <div id="name-intro">
+        <div>ᜇᜌ ᜐᜒ</div>
+        <div>Hi👋! My name is</div>
+        <div className="big-text font-bold mb-3">
+          <p id="myName">
+            <span
+              className={`${isDarkMode ? "text-blue-500" : "text-blue-800"}`}
+            >
+              John Carlo
+            </span>{" "}
+            Sabenorio
+          </p>
+        </div>
       </div>
       <Profile />
       <Role />
