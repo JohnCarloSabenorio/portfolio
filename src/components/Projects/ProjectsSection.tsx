@@ -10,7 +10,7 @@ export default function ProjectsSection() {
         desc="Check out some of the projects I developed!"
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-1 p-3">
+      <div className="grid gap-3 grid-cols-1 md:grid-cols-2 gap-1 p-3">
         {projects.map((data, idx) => {
           return <ProjectItem key={idx} projectData={data} />;
         })}

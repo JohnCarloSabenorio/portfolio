@@ -5,16 +5,40 @@ export default function SocialMediaIcons() {
   return (
     <div className="flex justify-center md:justify-start gap-1">
       <a href="https://github.com/JohnCarloSabenorio" target="_blank">
-        <GitHubIcon sx={{ fontSize: 30 }} />
+        <GitHubIcon
+          sx={{
+            fontSize: 30,
+            "&:hover": {
+              transform: "scale(1.3)",
+              transition: "all 0.3s ease",
+            },
+          }}
+        />
       </a>
       <a
         href="https://www.linkedin.com/in/john-carlo-sabenorio-732259244/"
         target="_blank"
       >
-        <LinkedInIcon sx={{ fontSize: 30 }} />
+        <LinkedInIcon
+          sx={{
+            fontSize: 30,
+            "&:hover": {
+              transform: "scale(1.3)",
+              transition: "all 0.3s ease",
+            },
+          }}
+        />
       </a>
       <a href="https://www.facebook.com/jc.sabenorio.2025" target="_blank">
-        <FacebookIcon sx={{ fontSize: 30 }} />
+        <FacebookIcon
+          sx={{
+            fontSize: 30,
+            "&:hover": {
+              transform: "scale(1.3)",
+              transition: "all 0.3s ease",
+            },
+          }}
+        />
       </a>
     </div>
   );

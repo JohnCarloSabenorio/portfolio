@@ -6,7 +6,7 @@ export default function ProjectItem({ projectData }: { projectData: Project }) {
   const { isDarkMode } = useContext(ThemeContext);
   return (
     <div
-      className={`flex flex-col md:flex-row items-center gap-1 border rounded-md p-3 ${
+      className={`flex flex-col md:flex-row items-center gap-1 border rounded-md shadow-md p-3 ${
         isDarkMode ? "project-dark" : "bg-white"
       }`}
     >
@@ -27,7 +27,7 @@ export default function ProjectItem({ projectData }: { projectData: Project }) {
         {/* Buttons */}
         <div className="flex gap-1 mt-3">
           <a href={projectData.repoLink} target="_blank">
-            <button className="bg-gray-800 text-white rounded-md p-1 px-2 cursor-pointer">
+            <button className="bg-gray-800 text-white rounded-md p-1 px-2 cursor-pointer hover:bg-gray-500 transition-colors">
               View GitHub
             </button>
           </a>

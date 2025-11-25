@@ -6,7 +6,7 @@ export default function WorkCard({ workData }: { workData: WorkExperience }) {
   const { isDarkMode } = useContext(ThemeContext);
   return (
     <div
-      className={`cursor-pointer group border rounded-md ${
+      className={`cursor-pointer group border rounded-md shadow-md ${
         isDarkMode ? "bg-gray-500 text-gray-100" : "bg-white"
       }`}
     >

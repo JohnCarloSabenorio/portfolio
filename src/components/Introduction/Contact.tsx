@@ -12,14 +12,14 @@ export default function Contact() {
         href="https://mail.google.com/mail/?view=cm&fs=1&to=johncarlosabenorio07@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="italic cursor-pointer font-bold"
+        className="italic cursor-pointer hover:underline"
       >
         <span>
           <EmailIcon />
         </span>{" "}
         johncarlosabenorio07@gmail.com
       </a>
-      <a onClick={callNumber} className="italic cursor-pointer font-bold">
+      <a onClick={callNumber} className="italic cursor-pointer hover:underline">
         <span>
           <PhoneAndroidIcon />
         </span>{" "}

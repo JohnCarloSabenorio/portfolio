@@ -20,7 +20,7 @@ export default function RoleSection() {
             return (
               <div
                 key={idx}
-                className={`flex flex-col aspect-square justify-center items-center p-3 rounded-md border bg-white ${
+                className={`flex shadow-md flex-col aspect-square justify-center items-center p-3 rounded-md border bg-white ${
                   isDarkMode && "role-dark"
                 }`}
               >
