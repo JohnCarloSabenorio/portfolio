@@ -1,9 +1,11 @@
 import Role from "./Role";
 import Profile from "./Profile";
 import { gsap } from "gsap";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
+import { ThemeContext } from "@/contexts/ThemeContext";
 
 export default function Greeting() {
+  const { isDarkMode } = useContext(ThemeContext);
   useEffect(() => {
     gsap.fromTo(
       "#myName",
@@ -20,8 +22,13 @@ export default function Greeting() {
     <div className="text-center md:text-left">
       <div>ᜇᜌ ᜐᜒ</div>
       <div>Hi👋! My name is</div>
-      <div id="myName" className="big-text titan-one-bold mb-3">
-        John Carlo Sabenorio
+      <div id="myName" className="big-text my-name font-bold mb-3">
+        <p>
+          <span className={`${isDarkMode ? "text-blue-500" : "text-blue-800"}`}>
+            John Carlo
+          </span>{" "}
+          Sabenorio
+        </p>
       </div>
       <Profile />
       <Role />

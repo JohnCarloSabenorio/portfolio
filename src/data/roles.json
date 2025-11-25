@@ -1,92 +1,42 @@
 [
   {
-    "task": "Version Control",
-    "phrase": "Managing code efficiently with Git.",
-    "icon": "forkright"
-  },
-  {
-    "task": "API Integration",
-    "phrase": "Connecting applications through seamless API workflows.",
-    "icon": "integrationinstructions"
-  },
-  {
-    "task": "Frontend",
-    "phrase": "Building responsive and modern user interfaces.",
+    "task": "Frontend/UI",
+    "phrase": "Crafting responsive, modern, and user-friendly interfaces.",
     "icon": "desktopwindows"
   },
   {
-    "task": "Backend",
-    "phrase": "Developing secure and scalable server logic.",
-    "icon": "dns"
-  },
-  {
-    "task": "Database",
-    "phrase": "Organizing and optimizing structured data storage.",
-    "icon": "storage"
-  },
-  {
-    "task": "Auth",
-    "phrase": "Ensuring secure user access and data protection.",
-    "icon": "lock"
-  },
-  {
-    "task": "API Design",
-    "phrase": "Designing structured and reliable data endpoints.",
+    "task": "Backend/API",
+    "phrase": "Developing secure, scalable servers and structured APIs.",
     "icon": "api"
   },
   {
-    "task": "Deployment",
-    "phrase": "Deploying applications to scalable cloud platforms.",
-    "icon": "cloudupload"
+    "task": "Database",
+    "phrase": "Organizing, optimizing, and managing structured data.",
+    "icon": "storage"
   },
   {
-    "task": "UI/UX",
-    "phrase": "Turning designs into clean, user-friendly experiences.",
-    "icon": "brush"
+    "task": "Version Control",
+    "phrase": "Managing code efficiently using Git.",
+    "icon": "forkright"
   },
   {
-    "task": "State",
-    "phrase": "Maintaining predictable app behavior with clean state control.",
-    "icon": "settingsethernet"
-  },
-  {
-    "task": "Debugging",
-    "phrase": "Identifying and resolving issues efficiently.",
+    "task": "Testing & Debugging",
+    "phrase": "Ensuring reliable, high-quality, bug-free applications.",
     "icon": "bugreport"
   },
   {
-    "task": "Performance",
-    "phrase": "Improving speed and overall app performance.",
-    "icon": "speed"
+    "task": "Deployment & CI/CD",
+    "phrase": "Automating builds and delivering apps to scalable platforms.",
+    "icon": "cloudupload"
   },
   {
-    "task": "Testing",
-    "phrase": "Ensuring reliability through quality tests.",
-    "icon": "checkcircle"
-  },
-  {
-    "task": "Security",
-    "phrase": "Protecting data with modern security standards.",
-    "icon": "security"
-  },
-  {
-    "task": "Error Handling",
-    "phrase": "Tracking and managing application errors.",
-    "icon": "erroroutline"
-  },
-  {
-    "task": "Docs",
-    "phrase": "Writing clear, helpful technical documentation.",
-    "icon": "description"
-  },
-  {
-    "task": "CI/CD",
-    "phrase": "Automating builds and deployments.",
-    "icon": "buildcircle"
+    "task": "Security & Auth",
+    "phrase": "Protecting user data and ensuring secure access.",
+    "icon": "lock"
   },
   {
     "task": "Collaboration",
-    "phrase": "Working with teams to build better code.",
+    "phrase": "Working effectively with teams to build better software.",
     "icon": "groups"
   }
 ]

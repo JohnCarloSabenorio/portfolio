@@ -1,13 +1,5 @@
 import roleData from "@/data/roles.json";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
 
-import { Card, CardContent } from "@/components/ui/card.tsx";
 import RoleIcon from "./RoleIcon";
 import SectionSeparator from "../SectionSeparator";
 import { useContext } from "react";
@@ -17,7 +9,35 @@ export default function RoleSection() {
   const { isDarkMode } = useContext(ThemeContext);
   return (
     <>
-      <Carousel
+      <div className="w-full justify-center p-8 md:p-0 mt-5" id="roles-section">
+        <SectionSeparator
+          header="What I Do"
+          desc="Check out what I do as a developer!"
+        />
+
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-3 p-3">
+          {roleData.map((data, idx) => {
+            return (
+              <div
+                key={idx}
+                className={`flex flex-col aspect-square justify-center items-center p-3 rounded-md border bg-white ${
+                  isDarkMode && "role-dark"
+                }`}
+              >
+                <RoleIcon icon={data.icon} />
+                <span className="text-xl font-semibold mt-3">{data.task}</span>
+                <p className="text-center">{data.phrase}</p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </>
+  );
+}
+
+/* 
+<Carousel
         opts={{
           align: "start",
         }}
@@ -57,6 +77,4 @@ export default function RoleSection() {
           />
         </div>
       </Carousel>
-    </>
-  );
-}
+*/
