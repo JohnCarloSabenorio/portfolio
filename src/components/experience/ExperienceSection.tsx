@@ -15,11 +15,11 @@ export default function ExperienceSection() {
         {/* Container */}
         <div className="flex flex-col gap-3">
           {/* Education */}
-          <div className="p-3 rounded-md">
+          <div className="flex flex-col gap-3 p-3 rounded-md">
             <h1
               className={`${
                 isDarkMode ? "text-white" : "text-black"
-              } text-3xl text-center mb-3`}
+              } text-xl text-center mb-3 font-semibold`}
             >
               Education
             </h1>
@@ -33,11 +33,12 @@ export default function ExperienceSection() {
             <h1
               className={`${
                 isDarkMode ? "text-white" : "text-black"
-              } text-3xl text-center mb-3`}
+              } text-xl font-semibold text-center mb-3`}
             >
               Work
             </h1>
-
+              
+            
             {works.map((data, idx) => {
               return <WorkCard workData={data} key={idx} />;
             })}

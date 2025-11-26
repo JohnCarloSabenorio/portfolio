@@ -18,10 +18,10 @@ export default function EducationCard({
         <div className="flex items-center justify-between">
           <p>{educationData.years}</p>
 
-          <div>
+          <div className="text-right">
             <p className="font-semibold">{educationData.school}</p>
             <p>{educationData.course}</p>
-            <p>Dean's Lister 2021 - 2024</p>
+            <p>{educationData.awards[0]}</p>
           </div>
         </div>
 

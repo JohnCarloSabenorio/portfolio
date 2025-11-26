@@ -14,7 +14,7 @@ export default function WorkCard({ workData }: { workData: WorkExperience }) {
         <div className="flex items-center justify-between">
           <p>July 2024 - August 2024</p>
 
-          <div>
+          <div className="text-right">
             <p className="font-semibold">{workData.name}</p>
             <p>{workData.role}</p>
           </div>
