@@ -10,7 +10,7 @@ export default function ExperienceSection() {
   return (
     <section id="experience-section" className="flex flex-col mt-20 w-full">
       <div className="">
-        <SectionSeparator header="Experience" desc="My Journey!" />
+        <SectionSeparator header="Experience"  />
 
         {/* Container */}
         <div className="flex flex-col gap-3">

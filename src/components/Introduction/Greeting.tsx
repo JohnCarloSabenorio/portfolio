@@ -1,20 +1,9 @@
-import { gsap } from "gsap";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { ThemeContext } from "@/contexts/ThemeContext";
 import Contact from "./Contact";
 
 export default function Greeting() {
   const { isDarkMode } = useContext(ThemeContext);
-
-  useEffect(() => {
-    const tl = gsap.timeline();
-
-    tl.fromTo(
-      "#profile",
-      { opacity: 0 }, // starting position
-      { opacity: 1, duration: 3, ease: "back" } // end position
-    );
-  }, []);
 
   return (
     <div id="profile" className="text-center lg:mt-15">

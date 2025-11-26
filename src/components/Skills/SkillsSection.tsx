@@ -7,7 +7,7 @@ import SectionSeparator from "../SectionSeparator";
 export default function SkillsSection() {
   return (
     <section id="skills-section" className="flex flex-col mt-20 w-full mb-5">
-      <SectionSeparator header="Skills" desc="Skills I've developed!" />
+      <SectionSeparator header="Skills" />
 
       {/* Languages */}
 

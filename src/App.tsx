@@ -13,6 +13,7 @@ import { ThemeContext } from "@/contexts/ThemeContext";
 import useLocalStorage from "@/hooks/useLocalStorage";
 import Navbar from "./components/Navbar/Navbar";
 // import ActionButton from "./components/ActionButton";
+import { gsap } from "gsap";
 
 function App() {
   const [activeSection, setActiveSection] = useState("intro-section");
@@ -34,6 +35,14 @@ function App() {
 
     sections.forEach((section) => observer.observe(section));
   }, []);
+
+  useEffect(() => {
+    gsap.fromTo(
+      "#main-container",
+      { opacity: 0 }, // starting position
+      { opacity: 1, duration: 3, ease: "back" }
+    );
+  }, []);
   return (
     <>
       <ThemeContext.Provider value={{ isDarkMode, setIsDarkMode }}>
@@ -43,7 +52,10 @@ function App() {
               isDarkMode ? "bg-gray-800" : "bg-amber-50"
             } transition-colors duration-300 min-h-screen relative`}
           >
-            <div className="flex flex-col md:flex-row h-full justify-center gap-3">
+            <div
+              id="main-container"
+              className="flex flex-col md:flex-row h-full justify-center gap-3"
+            >
               <div className="w-full sticky top-0 md:hidden">
                 <Navbar />
               </div>

@@ -16,7 +16,7 @@ export default function RoleSection() {
           isDarkMode ? "text-white " : "text-black"
         }`}
       >
-        <SectionSeparator header="About" desc="" />
+        <SectionSeparator header="About" />
 
         <div className={`${isDarkMode ? "text-white " : "text-black"}`}>
           <Description />
