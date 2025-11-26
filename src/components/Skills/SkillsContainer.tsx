@@ -14,7 +14,7 @@ export default function SkillsContainer({
     <div
       className={`font-semibold mt-5 ${isDarkMode ? "text-white" : "text-black"}`}
     >
-      <h1 className="text-3xl">{header}</h1>
+      <h1 className="text-xl">{header}</h1>
 
       <BadgeContainer skills={skillsData} />
     </div>
