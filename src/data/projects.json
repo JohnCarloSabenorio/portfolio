@@ -96,7 +96,7 @@
   },
   {
     "name": "GameVault",
-    "description": "A web app that lets users catalog, rate, and discuss video games with other people who share similar interests.",
+    "description": "A web project that uses IGDB API to display the top games from IGDB and Steam, offering a clean and intuitive way to browse popular titles and search for specific games.",
     "summary": "",
     "dateAccomplished": "2025-11-14T00:00:00.000Z",
     "imageLinks": [],

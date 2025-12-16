@@ -43,6 +43,8 @@ function App() {
       { opacity: 1, duration: 3, ease: "back" }
     );
   }, []);
+
+  
   return (
     <>
       <ThemeContext.Provider value={{ isDarkMode, setIsDarkMode }}>
