@@ -1,29 +1,5 @@
 [
   {
-    "school": "School of Saint Anthony",
-    "years": "2006 - 2009",
-    "awards": [],
-    "course": "",
-    "extracurriculars": [],
-    "training": []
-  },
-  {
-    "school": "Herman Harrell Horne School",
-    "years": "2009 - 2015",
-    "awards": [],
-    "course": "",
-    "extracurriculars": [],
-    "training": []
-  },
-  {
-    "school": "Thomas Aquinas Institute of Learning",
-    "years": "2015 - 2021",
-    "awards": [],
-    "course": "",
-    "extracurriculars": [],
-    "training": []
-  },
-  {
     "school": "Lyceum of the Philippines University - Cavite",
     "years": "2021 - 2025",
     "awards": ["Dean's Lister A.Y 2021 - 2024"],
@@ -41,5 +17,29 @@
       "IT Specialist Certification in Databases - Certiport",
       "IT Specialist Certification in Python - Certiport"
     ]
+  },
+  {
+    "school": "Thomas Aquinas Institute of Learning",
+    "years": "2015 - 2021",
+    "awards": [],
+    "course": "",
+    "extracurriculars": [],
+    "training": []
+  },
+  {
+    "school": "Herman Harrell Horne School",
+    "years": "2009 - 2015",
+    "awards": [],
+    "course": "",
+    "extracurriculars": [],
+    "training": []
+  },
+  {
+    "school": "School of Saint Anthony",
+    "years": "2006 - 2009",
+    "awards": [],
+    "course": "",
+    "extracurriculars": [],
+    "training": []
   }
 ]
