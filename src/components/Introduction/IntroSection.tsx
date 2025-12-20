@@ -10,7 +10,7 @@ export default function IntroSection() {
       id="intro-section"
       className={`flex flex-col items-center ${
         isDarkMode && "dark"
-      } basis-1/2 max-h-screen md:sticky md:top-0`}
+      } basis-1/2 max-h-screen lg:sticky md:top-0`}
     >
       <div className="hidden md:block w-full">
         <Navbar />

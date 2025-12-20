@@ -5,10 +5,10 @@ export default function SkillBadge({ skill }: { skill: Skill }) {
   const { isDarkMode } = useContext(ThemeContext);
   return (
     <div
-      className={`group p-3 flex justify-center items-center border rounded-lg cursor-pointer select-none shadow-md
+      className={`group p-3 flex justify-center items-center rounded-lg cursor-pointer select-none shadow-md
                 hover:translate-y-2  
                 transition-all duration-150 ${
-                  isDarkMode ? "bg-gray-200" : "bg-white"
+                  isDarkMode ? "bg-gray-200" : "bg-white shadow-black"
                 }`}
     >
       <p className="bg-gray-800 text-white absolute top-0 opacity-0 group-hover:opacity-100 z-10 group-hover:-translate-y-8 transition-all border px-3 rounded-md">

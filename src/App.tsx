@@ -55,7 +55,7 @@ function App() {
           >
             <div
               id="main-container"
-              className="flex flex-col md:flex-row h-full justify-center gap-3"
+              className="flex flex-col lg:flex-row h-full justify-center gap-3"
             >
               <div className="w-full sticky top-0 md:hidden">
                 <Navbar />

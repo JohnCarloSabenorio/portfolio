@@ -21,7 +21,7 @@ export default function RoleSection() {
         <div className={`${isDarkMode ? "text-white " : "text-black"}`}>
           <Description />
 
-          <h1 className="text-xl font-semibold mt-3">What I Do:</h1>
+          <h1 className="text-xl font-semibold mt-10">What I Do</h1>
           <ul className="flex flex-col gap-3 mt-3">
             {roleData.map((data, idx) => {
               return (

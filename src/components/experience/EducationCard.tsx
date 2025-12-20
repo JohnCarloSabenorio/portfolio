@@ -10,15 +10,23 @@ export default function EducationCard({
   const { isDarkMode } = useContext(ThemeContext);
   return (
     <div
-      className={`cursor-pointer group border rounded-md shadow-md ${
-        isDarkMode ? "bg-gray-500 text-gray-100" : "bg-white"
+      className={`cursor-pointer group rounded-md shadow-sm ${
+        isDarkMode
+          ? "bg-gray-500 text-gray-100 shadow-white"
+          : "shadow-black bg-white"
       }`}
     >
-      <div className="p-5 rounded-md">
-        <div className="flex items-center justify-between">
-          <p>{educationData.years}</p>
+      <div className="px-8 py-3 rounded-md">
+        <div className="flex flex-col md:flex-row items-center justify-between">
+          <p
+            className={`${
+              isDarkMode ? "text-white" : "text-gray-700"
+            } font-semibold`}
+          >
+            {educationData.years}
+          </p>
 
-          <div className="text-right">
+          <div className="text-center mt-5 md:mt-0 md:text-right">
             <p className="font-semibold">{educationData.school}</p>
             <p>{educationData.course}</p>
             <p>{educationData.awards[0]}</p>

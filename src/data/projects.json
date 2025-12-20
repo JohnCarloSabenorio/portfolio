@@ -18,7 +18,8 @@
       { "name": "Vuforia", "image": "images/icons/vuforia-icon.jpg" }
     ],
     "iconLink": "images/logos/partnar-logo.png",
-    "repoLink": "https://github.com/JohnCarloSabenorio/PartnAR-CMS"
+    "repoLink": "https://github.com/JohnCarloSabenorio/PartnAR-CMS",
+    "websiteLink": ""
   },
   {
     "name": "Voce",
@@ -36,7 +37,8 @@
       { "name": "MySQL", "image": "images/icons/mysql-icon.png" }
     ],
     "iconLink": "images/logos/voce-logo.jpg",
-    "repoLink": "https://github.com/JohnCarloSabenorio/voce"
+    "repoLink": "https://github.com/JohnCarloSabenorio/voce",
+    "websiteLink": ""
   },
   {
     "name": "AIris",
@@ -53,7 +55,8 @@
       { "name": "PostgreSQL", "image": "images/icons/postgres-icon.png" }
     ],
     "iconLink": "images/logos/airis-logo.png",
-    "repoLink": "https://github.com/JohnCarloSabenorio/Airis"
+    "repoLink": "https://github.com/JohnCarloSabenorio/Airis",
+    "websiteLink": ""
   },
   {
     "name": "Natours",
@@ -71,7 +74,8 @@
       { "name": "Postman", "image": "images/icons/postman-icon.png" }
     ],
     "iconLink": "images/logos/natours-logo.png",
-    "repoLink": "https://github.com/JohnCarloSabenorio/Natours"
+    "repoLink": "https://github.com/JohnCarloSabenorio/Natours",
+    "websiteLink": ""
   },
   {
     "name": "JConnect",
@@ -92,7 +96,8 @@
       { "name": "Redux", "image": "images/icons/redux-icon.png" }
     ],
     "iconLink": "images/logos/jconnect-logo.png",
-    "repoLink": "https://github.com/JohnCarloSabenorio/JConnect"
+    "repoLink": "https://github.com/JohnCarloSabenorio/JConnect",
+    "websiteLink": "jconnect.onrender.com/"
   },
   {
     "name": "GameVault",
@@ -109,6 +114,7 @@
       { "name": "Next.js", "image": "images/icons/nextjs-icon.png" }
     ],
     "iconLink": "images/logos/gamevault-logo.png",
-    "repoLink": "https://github.com/JohnCarloSabenorio/game-vault"
+    "repoLink": "https://github.com/JohnCarloSabenorio/game-vault",
+    "websiteLink": "https://game-vault-topaz.vercel.app/"
   }
 ]

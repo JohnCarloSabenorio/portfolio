@@ -13,4 +13,5 @@ export interface Project {
   technologies: Technology[];
   iconLink: string;
   repoLink: string;
+  websiteLink: string;
 }
