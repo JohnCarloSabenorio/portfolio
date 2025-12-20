@@ -6,7 +6,10 @@ export default function Greeting() {
   const { isDarkMode } = useContext(ThemeContext);
 
   return (
-    <div id="profile" className="text-center lg:mt-15">
+    <div
+      id="profile"
+      className="text-center lg:mt-15 overflow-y-scroll hide-scrollbar"
+    >
       <img
         className="mx-auto rounded-full max-w-72 aspect-square object-cover"
         src="/images/formal.JPG"
