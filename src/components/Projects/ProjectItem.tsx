@@ -6,12 +6,12 @@ export default function ProjectItem({ projectData }: { projectData: Project }) {
   const { isDarkMode } = useContext(ThemeContext);
   return (
     <div
-      className={`flex flex-col md:flex-row items-center gap-1 rounded-md shadow-sm p-3 ${
+      className={`flex flex-col md:flex-row items-center gap-3 rounded-md shadow-sm p-3 ${
         isDarkMode ? "project-dark" : "shadow-black bg-white"
       }`}
     >
       <img
-        className="w-15 mx-3 aspect-square rounded-full"
+        className="w-15 mx-3 aspect-square rounded-full mt-5 md: mt-0"
         src={projectData.iconLink}
         alt="project-icon"
       />
@@ -27,7 +27,7 @@ export default function ProjectItem({ projectData }: { projectData: Project }) {
           })}
         </div>
         {/* Buttons */}
-        <div className="flex justify-center md:justify-start gap-1 mt-3">
+        <div className="flex justify-center mt-5 md:justify-start gap-1 mt-3">
           <a href={projectData.repoLink} target="_blank">
             <button className="bg-gray-800 text-white rounded-md p-1 px-2 cursor-pointer hover:bg-gray-500 transition-colors">
               View GitHub
